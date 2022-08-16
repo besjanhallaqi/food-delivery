@@ -22,9 +22,9 @@ export default function Menu() {
         </div>
         <ul className="flex flex-row items-center gap-4 md:gap-2 font-bold">
           <li className="hidden md:block">
-            <a href="#" className="px-4 py-2">
-              Restaurants
-            </a>
+            <Link href="/restaurants">
+              <a className="px-4 py-2">Restaurants</a>
+            </Link>
           </li>
           <li className="hidden md:block">
             <a href="#" className="px-4 py-2 border-r-2 border-lightGray">
